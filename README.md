@@ -1,7 +1,8 @@
 # FraudGuard-ML 💳🔒
 Welcome to FraudGuard-ML, a cutting-edge machine learning project designed to detect credit card fraud with precision and flair! 🎯 Built by a team of passionate developers from Ulster University, this project leverages data science to secure financial transactions and boost trust in the digital economy. 💸
 
-Project Overview 📋
+#Project Overview 📋
+
     What’s the Deal? 🤔
     FraudGuard-ML uses the Kaggle Credit Card Fraud Detection dataset (284,807 transactions!) to identify fraudulent activities in real-time. With only 0.172% of transactions being fraud, we tackled the class imbalance head-on using advanced ML techniques. 🎉
     Tech Stack: 🛠️
@@ -15,8 +16,9 @@ Project Overview 📋
         Real-time fraud detection simulation 🎮
         Stunning visualizations (heatmaps, violin plots, scatter plots) 📈
 
-How It Works ⚙️
-Data Import & Cleaning: 📥
+#How It Works ⚙️
+
+    Data Import & Cleaning: 📥
     Grabbed the dataset from Kaggle, cleaned it with Pandas, and sampled 10,000 records for efficiency. No dirty data here! 🧹
     Data Wrangling: 🔧
     Scaled features like Time and Amount with StandardScaler, balanced classes with SMOTE. Balanced datasets = happy models! ⚖️
@@ -27,7 +29,7 @@ Data Import & Cleaning: 📥
     Deployment: 🚀
     Built a real-time prediction function and saved the Random Forest model for deployment. Ready to catch fraudsters in action! 🕵️‍♂️
 
-Results & Impact 🌍
+#Results & Impact 🌍
 
     Performance: 📈
     XGBoost nailed it with a 93.6% probability on a sample transaction (Transaction ID: 172001, Amount: €149.23). False positives? Minimized! 💪
